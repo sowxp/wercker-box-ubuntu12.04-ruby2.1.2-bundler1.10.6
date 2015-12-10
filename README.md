@@ -1,6 +1,6 @@
-# ubuntu12.04-ruby2.1.2-bundler1.6.4 box
+# ubuntu12.04-ruby2.1.2-bundler1.10.6 box
 
-An ubuntu box containing Ruby 2.1.2 and Bundler 1.6.4
+An ubuntu box containing Ruby 2.1.2 and Bundler 1.10.6
 
 # License
 
