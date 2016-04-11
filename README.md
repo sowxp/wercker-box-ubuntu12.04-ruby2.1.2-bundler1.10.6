@@ -1,12 +1,16 @@
-# ubuntu12.04-ruby2.1.9-bundler1.11.2 box
+# ubuntu12.04-ruby2.2.4-bundler1.11.2 box
 
-An ubuntu box containing Ruby 2.1.9 and Bundler 1.11.2
+An ubuntu box containing Ruby 2.2.4 and Bundler 1.11.2
 
 # License
 
 The MIT License (MIT)
 
 # Changelog
+## 0.0.4
+
+- update ruby 2.2.4 & bundler 1.11.2
+
 
 ## 0.0.3
 
