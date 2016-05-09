@@ -1,15 +1,15 @@
-name: ubuntu12.04-ruby2.2.4-bundler1.11.2
+name: ubuntu12.04-ruby2.2.5-bundler1.11.2
 version: 0.0.1
-inherits: wercker/ubuntu12.04-webessentials@1.0.4
+inherits: wercker/ubuntu12.04-webessentials@1.0.5
 type: main
 platform: ubuntu@12.04
 keywords:
   - ruby
 packages:
-  - ruby@2.2.4
+  - ruby@2.2.5
   - bundler@1.11.2
 script: |
-  export RUBYVERSION=2.2.4
+  export RUBYVERSION=2.2.5
   export BUNDLERVERSION=1.11.2
   sudo apt-get update
   sudo apt-get install git zlib1g-dev libreadline-dev libqtwebkit-dev
@@ -38,7 +38,7 @@ box-detect:
   version :
   detect:
     - inFiles:
-      - Gemfile : ruby "2.2.4"
+      - Gemfile : ruby "2.2.5"
 
 default-build:
   ruby-on-rails:
